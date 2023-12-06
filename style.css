@@ -14,13 +14,13 @@ body{
 }
 .container{
     display: flex;
-    /* width: 100%; */
+    flex-basis: 100px;
     height: 40rem;
     /* background-color: violet; */
     
 }
 .aside{
-    width: 300px;
+    /* flex-basis: 300px; */
     height: 910px;
     padding: 20px;
     /* border-right: 1px solid ; */
@@ -96,7 +96,7 @@ body{
 
 }
 .navbar-wrapper{
-    /* width: 72rem; */
+    
     
     height: 500px;
     background-color: turquoise;
@@ -105,9 +105,9 @@ body{
 }
 .accountbar{ 
      /* background-color: aqua;  */
-    /* width: 100%; */
     display: flex;
     justify-content: flex-end;
+    flex-basis: 100;
     gap: 20px;
     padding: 30px;
    
@@ -121,7 +121,7 @@ body{
     display: flex;
     justify-content: space-between;
      background-color: #EBE7E0; 
-    width: 30%;
+    flex-basis: 30%;
     height: 50px;
     margin-top: 30px;
     margin-left: 10px;
@@ -151,14 +151,14 @@ body{
     flex-direction: row;
     gap: 30px;
     height: 700px;
-    width: 100%;
+    flex-basis: 100%;
     /* background-color: gold; */
 }
 .Dashboard-grid{
     display: flex;
     flex-direction: column;
     /* background-color: rgb(9, 255, 0); */
-    width: 70%;
+    flex-basis: 70%;
     height: 69rem;
     padding-left: 30px;
     padding-top: 30px;
@@ -172,8 +172,8 @@ body{
 }
 .recent-activities{
     /* background-color: aqua; */
-    width: 480px;
-    width: 30%;
+    flex-basis: 480px;
+  
     height: 400px;
     padding-right: 27px;
 
@@ -241,7 +241,7 @@ body{
     margin-top: 20px;
 }
 .avaiable{
-    width: 276px;
+    flex-basis: 276px;
     height: 150px;
     background-color: rgb(249, 203, 211);
     border-radius: 10px;
@@ -252,7 +252,7 @@ body{
     /* margin-bottom: px; */
 }
 .avaiable-inside h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .avaiable-inside h2{
     font-size: 40px;
@@ -265,7 +265,7 @@ body{
 }
 
 .job{
-    width: 276px;
+    flex-basis: 276px;
     height: 150px;
     background-color: rgb(183, 204, 241);
     border-radius: 10px;
@@ -276,7 +276,7 @@ body{
     /* margin-bottom: px; */
 }
 .job-inside h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .job-inside h2{
     font-size: 40px;
@@ -288,7 +288,7 @@ body{
     
 }
 .new{
-    width: 277px;
+    flex-basis: 277px;
     height: 150px;
     background-color: rgb(251, 209, 216);
     border-radius: 10px;
@@ -299,7 +299,7 @@ body{
     /* margin-bottom: px; */
 }
 .new-inside h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .new-inside h2{
     font-size: 40px;
@@ -312,7 +312,7 @@ body{
 }
 .total{
     /* background-color: darkred; */
-    width: 415px;
+    fl: 415px;
     height: 250px;
     border-radius: 10px;
     border: 1px solid rgb(197, 197, 197);
@@ -333,11 +333,14 @@ body{
 }
 
 .gender h2{
-    font-size: 50px;
+    font-size: 35px;
+}
+.gender h1{
+    font-size: 20px;
 }
 
 .gender p{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
  .graph{
@@ -348,15 +351,17 @@ body{
     background-color: rgb(254, 231, 235);
     border-radius: 5px;
     margin-top: 50px;
+    font-size: 12px;
 }
 .graph img{
-    width: 150px;
+    /* width: 150px; */
     margin-top: 40px;
+    
     
 }  
 .talent{
     /* background-color: darkred; */
-    width: 415px;
+    /* width: 415px; */
     height: 250px;
     border-radius: 10px;
     border: 1px solid rgb(197, 197, 197);
@@ -378,11 +383,14 @@ body{
 }
 
 .talent-gender h2{
-    font-size: 50px;
+    font-size: 40px;
+}
+.talent-gender h1{
+    font-size: 20px;
 }
 
 .talent-gender p{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
  .talent-graph{
@@ -393,9 +401,10 @@ body{
     background-color: rgb(254, 231, 235);
     border-radius: 5px;
     margin-top: 50px;
+    font-size: 12px;
 }
 .talent-graph img{
-    width: 150px;
+    flex-basis: 150px;
     margin-top: 40px;
 }
 .announcement{
@@ -412,7 +421,7 @@ body{
     background-color: rgb(35, 35, 93);
     width: 360px;
     height: 250px;
-    margin-top: 100px;
+    margin-top: 90px;
     border-radius: 10px;
 
 }
